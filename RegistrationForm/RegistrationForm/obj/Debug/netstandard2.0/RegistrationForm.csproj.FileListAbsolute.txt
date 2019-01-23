@@ -1,0 +1,14 @@
+/Users/malikabaglan/Projects/RegistrationForm/RegistrationForm/bin/Debug/netstandard2.0/RegistrationForm.deps.json
+/Users/malikabaglan/Projects/RegistrationForm/RegistrationForm/bin/Debug/netstandard2.0/RegistrationForm.dll
+/Users/malikabaglan/Projects/RegistrationForm/RegistrationForm/bin/Debug/netstandard2.0/RegistrationForm.pdb
+/Users/malikabaglan/Projects/RegistrationForm/RegistrationForm/obj/Debug/netstandard2.0/App.xaml.g.cs
+/Users/malikabaglan/Projects/RegistrationForm/RegistrationForm/obj/Debug/netstandard2.0/LoginPage.xaml.g.cs
+/Users/malikabaglan/Projects/RegistrationForm/RegistrationForm/obj/Debug/netstandard2.0/MainPage.xaml.g.cs
+/Users/malikabaglan/Projects/RegistrationForm/RegistrationForm/obj/Debug/netstandard2.0/RegistrationForm.csproj.CoreCompileInputs.cache
+/Users/malikabaglan/Projects/RegistrationForm/RegistrationForm/obj/Debug/netstandard2.0/RegistrationForm.AssemblyInfoInputs.cache
+/Users/malikabaglan/Projects/RegistrationForm/RegistrationForm/obj/Debug/netstandard2.0/RegistrationForm.AssemblyInfo.cs
+/Users/malikabaglan/Projects/RegistrationForm/RegistrationForm/obj/Debug/netstandard2.0/XamlC.stamp
+/Users/malikabaglan/Projects/RegistrationForm/RegistrationForm/obj/Debug/netstandard2.0/RegistrationForm.dll
+/Users/malikabaglan/Projects/RegistrationForm/RegistrationForm/obj/Debug/netstandard2.0/RegistrationForm.pdb
+/Users/malikabaglan/Projects/RegistrationForm/RegistrationForm/obj/Debug/netstandard2.0/RegistrationForm.csprojAssemblyReference.cache
+/Users/malikabaglan/Projects/RegistrationForm/RegistrationForm/obj/Debug/netstandard2.0/AboutMePage.xaml.g.cs

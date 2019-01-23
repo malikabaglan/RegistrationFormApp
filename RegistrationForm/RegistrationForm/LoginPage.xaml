@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms" 
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+                xmlns:local="clr-namespace:RegistrationForm" 
+             x:Class="RegistrationForm.LoginPage">
+     
+    <ScrollView x:Name="scrollView" Orientation="Vertical"  VerticalOptions="FillAndExpand">
+  
+         <StackLayout Padding="60">
+             <Image Source="nabp.jpg" WidthRequest="120">  </Image>
+        
+          <Label Text="National Board of Pharmacy" HorizontalTextAlignment="Center" 
+                Margin="0,30" TextColor="Red"  ></Label> 
+            
+              <Label Text="Create individual e-Profile" HorizontalTextAlignment="Center" 
+                Margin="0,15" TextColor="Black"  ></Label> 
+            
+            
+       <local:RoundedEntry  x:Name="emailAddress" Placeholder="Email Address" 
+                           HorizontalTextAlignment="Center"
+                            
+                           Margin="0,20,0,20"> </local:RoundedEntry> 
+            
+            <Label x:Name="ErrorName"></Label>
+            
+         <local:RoundedEntry x:Name="UserLogin" Placeholder="Password"  HorizontalTextAlignment="Center" > </local:RoundedEntry> 
+        
+            <local:CustomButtonRenderer VerticalOptions="Center" Margin="0,20,0,20" 
+                                      HorizontalOptions="Center"  WidthRequest="250" HeightRequest="30"  
+                                        Text="Next" TextColor="Black" Clicked="Handle_Clicked"> </local:CustomButtonRenderer>
+            
+            
+    </StackLayout>
+        </ScrollView>
+</ContentPage>
