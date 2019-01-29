@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+              xmlns:local="clr-namespace:RegistrationForm" 
+             
+             
+          xmlns:Validators="clr-namespace:RegistrationForm.Validators.Implementations"
+             xmlns:Behaviors="clr-namespace:RegistrationForm.Behaviors"
+            x:Class="RegistrationForm.UserSSNumberPage">
+ 
+    
+
+   <StackLayout Padding="60"  HorizontalOptions="Center" VerticalOptions="Center">
+        <Label Margin="20">Enter SSN Number</Label>
+        <Entry x:Name="ssnNum" Placeholder="ssn">
+            <Entry.Behaviors>
+                <Behaviors:ValidationBehavior PropertyName="Text">
+                    <Behaviors:ValidationBehavior.Validators>
+                        <Validators:RequiredValidator />
+                        <Validators:FormatValidator
+                            Message="SSN number must be valid 9 digit" 
+                            Format="^\d{3}?\d{2}?\d{4}$" />
+                    </Behaviors:ValidationBehavior.Validators>
+                </Behaviors:ValidationBehavior>
+            </Entry.Behaviors>
+        </Entry>
+        
+        <Entry  x:Name="ssnConf" Margin="0,20" Placeholder="Confirm ssn">
+            <Entry.Behaviors>
+                <Behaviors:ValidationBehavior PropertyName="Text">
+                    <Behaviors:ValidationBehavior.Validators>
+                        <Validators:RequiredValidator />
+                        <Validators:FormatValidator
+                            Message="SSN number must be valid 9 digit" 
+                            Format="^\d{3}?\d{2}?\d{4}$" />
+                    </Behaviors:ValidationBehavior.Validators>
+                </Behaviors:ValidationBehavior>
+            </Entry.Behaviors>
+        </Entry>
+        
+        <Button Text="Submit" FontSize="Large" Clicked="Handle_Clicked"> </Button>
+        
+        
+    </StackLayout>
+</ContentPage>  
+    
+    
+  
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+ <!--  
+  <Grid VerticalOptions="Center" RowSpacing="50" HorizontalOptions="Center">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="40" > </RowDefinition>
+             <RowDefinition Height="*"> </RowDefinition>
+             <RowDefinition Height="40"> </RowDefinition>
+             <RowDefinition Height="*"> </RowDefinition>
+             <RowDefinition Height="40"> </RowDefinition>
+            
+            
+        </Grid.RowDefinitions>
+        
+        
+        <Grid.ColumnDefinitions >
+            <ColumnDefinition Width="*"></ColumnDefinition>
+        </Grid.ColumnDefinitions>
+        
+        
+        <Entry Grid.Row="0" x:Name="ssnNum" Placeholder="SSNNumber"></Entry>
+         <Label  Grid.Row="1"  TextColor="Red" x:Name="ssnError"></Label>
+     <Entry Grid.Row="2" x:Name="ssnConf" Placeholder="SSNNumber"></Entry>
+        
+       
+         <Entry Grid.Row="2" x:Name="ssnConf" Placeholder="SSNNumber"></Entry>
+       
+        
+    <Label Grid.Row="3" Text="Lable" TextColor="Red" x:Name="ssnConfError"></Label>
+        
+        
+        <Button Grid.Row="4" Text="Submit" Clicked="Handle_Clicked" ></Button>
+
+    </Grid>
+    
+    
+    
+    
+</ContentPage>
+
+    -->
+    
+    
+    
+    
+    

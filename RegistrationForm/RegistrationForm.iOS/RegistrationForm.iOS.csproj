@@ -164,5 +164,6 @@
   </ItemGroup>
   <ItemGroup>
     <BundleResource Include="Resources\nabp.jpg" />
+    <BundleResource Include="Resources\hamburger.png" />
   </ItemGroup>
 </Project>

@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<MasterDetailPage xmlns="http://xamarin.com/schemas/2014/forms" 
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" 
+             x:Class="RegistrationForm.UserSSNPage">
+    
+    
+     <MasterDetailPage.Master>
+        
+        <ContentPage Padding="20"
+                     BackgroundColor="Aqua" Title="MyMaster"  Icon="hamburger.png"> 
+ 
+            
+            
+            <ContentPage.Content>
+                <StackLayout Margin="5,30,5,5">
+                    <Label Text="Information"></Label>
+                    <Button Text="SSNumber" Clicked="Handle_Clicked"  BackgroundColor="Yellow" ></Button>
+                    <Button Text="Date of Birth"  BackgroundColor="Yellow"></Button>
+                     <Button Text="Education Details"  BackgroundColor="Yellow" Clicked="EducationDetails_Clicked"></Button>
+                     <Button Text="License Details"  BackgroundColor="Yellow"></Button>
+                     <Button Text="Address Details"  BackgroundColor="Yellow" Clicked="AddressDetails_Clicked"></Button>
+                     <Button Text="Proffesion Details"  BackgroundColor="Yellow"></Button>
+                </StackLayout>
+            </ContentPage.Content>
+        </ContentPage>
+    </MasterDetailPage.Master>
+    
+    
+<MasterDetailPage.Detail>
+     <ContentPage Padding="20"> 
+            <ContentPage.Content>
+                <StackLayout Margin="5,30,5,5">
+                    <Label Text="All data will be secured"></Label>
+                </StackLayout>
+            </ContentPage.Content>
+        </ContentPage>
+    </MasterDetailPage.Detail>
+    
+    
+</MasterDetailPage>

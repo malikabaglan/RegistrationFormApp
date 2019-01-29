@@ -1,4 +1,5 @@
 ﻿using System;
+using Microsoft.WindowsAzure.MobileServices;
 using Xamarin.Forms;
 using Xamarin.Forms.Xaml;
 
@@ -6,7 +7,17 @@ using Xamarin.Forms.Xaml;
 namespace RegistrationForm
 {
     public partial class App : Application
+
+
     {
+
+
+        public static MobileServiceClient MobileService = new MobileServiceClient("https://malikasapp.azurewebsites.net");
+
+
+        public static User user = new User();
+
+
         public App()
         {
             InitializeComponent();

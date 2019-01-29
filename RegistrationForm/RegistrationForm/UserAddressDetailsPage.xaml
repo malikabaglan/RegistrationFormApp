@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" 
+             x:Class="RegistrationForm.UserAddressDetailsPage">
+    
+<StackLayout Padding="20" >
+        <Frame  Margin="0,50,0,0"   BackgroundColor="White" OutlineColor="Aqua">
+  
+      
+                 <Grid Padding="0" ColumnSpacing="10" RowSpacing="10">
+  
+            <Grid.RowDefinitions > 
+                <RowDefinition  Height="30"></RowDefinition>
+                <RowDefinition Height="30"></RowDefinition>
+                <RowDefinition Height="30"></RowDefinition>
+                <RowDefinition Height="30"></RowDefinition>
+                 <RowDefinition Height="30"></RowDefinition>
+             </Grid.RowDefinitions>
+            
+           
+            <Grid.ColumnDefinitions>
+    <ColumnDefinition Width="Auto" />
+    <ColumnDefinition Width="*" />
+
+  </Grid.ColumnDefinitions>
+             <Label   Text ="Your Address" HorizontalTextAlignment="Start" FontSize="Large" TextColor="Red" Grid.Row="0" Grid.Column="0"/>
+                
+<Entry Text ="United States" Grid.Row="1" Grid.Column="0"></Entry>
+                
+ <Entry Placeholder="Street and number ,P.O.box,c/o" Grid.Row="2" Grid.Column="0" ></Entry>  
+<Entry Grid.Row="3" Placeholder="Apartment,suite,unit,building,floor,etc" Grid.Column="0"></Entry>               
+ <Entry Grid.Row="4" Placeholder="City" Grid.Column="0"></Entry>
+<Entry Grid.Row="5" Placeholder="State/Province/Region" Grid.Column="0"></Entry>  
+                <Entry Grid.Row="6" Placeholder="Zip Code" Grid.Column="0"></Entry>  
+                
+        
+            
+<!--<Entry Text ="United States" Grid.Row="0" Grid.Column="0" Grid.ColumnSpan="2" />-->
+<!--<Entry Grid.Row="0" Placeholder="leaving from" Grid.Column="0" PlaceholderColor="BSlack" Grid.ColumnSpan="2" ></Entry>-->
+<!-- <Entry Grid.Row="1" Placeholder="Going to" PlaceholderColor="Black" Grid.Column="0" Grid.ColumnSpan="1" ></Entry>
+ <Entry Grid.Row="1" Placeholder="Going to" PlaceholderColor="Black" Grid.Column="1" Grid.ColumnSpan="1"></Entry>
+ <Entry Grid.Row="2" Placeholder="Going to" PlaceholderColor="Black"  Grid.ColumnSpan="2" ></Entry>   
+ <Entry Grid.Row="3" Placeholder="Going from" PlaceholderColor="Black"  Grid.ColumnSpan="2" ></Entry>   
+ <Entry Grid.Row="4" Placeholder="Going from" PlaceholderColor="Black"  Grid.ColumnSpan="2" ></Entry> -->
+</Grid>
+        </Frame>
+        
+        <Frame Margin="0,30,0,0"  OutlineColor="Aqua"> 
+            
+            <Grid  RowSpacing="10"> 
+                
+              <Grid.RowDefinitions >
+                    <RowDefinition Height="30"></RowDefinition>
+                     <RowDefinition Height="30"></RowDefinition>
+                     <RowDefinition Height="30"></RowDefinition>
+                </Grid.RowDefinitions>  
+             
+                <Grid.ColumnDefinitions>
+    <ColumnDefinition Width="Auto" />
+   
+            
+
+  </Grid.ColumnDefinitions>
+                
+                
+                
+                <Label   Text="Your contact Information" HorizontalTextAlignment="Start"  FontSize="Large" TextColor="Red"></Label>
+           <Entry Grid.Row="1"  Placeholder="Primary Phone"></Entry>
+            
+                 <Entry Grid.Row="2" Grid.Column="0" Placeholder="Primary email"></Entry>
+                      <Entry Grid.Row="2" Grid.Column="1" Placeholder="Ext"></Entry>
+                 <Entry Grid.Row="3" Placeholder="Fax Number"></Entry>
+                
+                </Grid>
+        
+        
+        </Frame>
+        
+        
+        
+        
+        
+        
+ </StackLayout> 
+    
+    
+  
+  
+    
+    
+    
+    
+    
+    
+    
+    
+    
+</ContentPage>
+
+
+
+
+
+
+

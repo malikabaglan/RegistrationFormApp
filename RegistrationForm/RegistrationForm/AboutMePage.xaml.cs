@@ -7,9 +7,30 @@ namespace RegistrationForm
 {
     public partial class AboutMePage : ContentPage
     {
-        public AboutMePage()
+        void Handle_Clicked(object sender, System.EventArgs e)
+        {
+            if (string.IsNullOrEmpty(firstName.Text) || string.IsNullOrEmpty(lastName.Text))
+            {
+                DisplayAlert("Error", "Enter all required fields", "OK");
+            }
+            else
+            {
+                Navigation.PushAsync(new UserSSNPage());
+            }
+
+
+
+
+
+        }
+
+        public AboutMePage(string parameter)
         {
             InitializeComponent();
+            mainLabel.Text = parameter;
+        
         }
+
+
     }
 }

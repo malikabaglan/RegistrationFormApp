@@ -2,9 +2,17 @@
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms" 
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" 
              xmlns:local="clr-namespace:RegistrationForm" 
-  x:Class="RegistrationForm.MainPage"
-             >
-    <FlexLayout Direction="Column"
+             
+             
+             xmlns:Validators="clr-namespace:RegistrationForm.Validators.Implementations"
+             xmlns:Behaviors="clr-namespace:RegistrationForm.Behaviors"
+            x:Class="RegistrationForm.MainPage">
+             
+    
+    
+    
+    
+<FlexLayout Direction="Column"
                 AlignItems="Center"
                 JustifyContent="SpaceEvenly">
 
