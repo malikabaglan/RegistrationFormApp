@@ -898,6 +898,18 @@
           "build/Xamarin.Forms.props": {},
           "build/Xamarin.Forms.targets": {}
         }
+      },
+      "XamForms.Controls.Calendar/1.1.1": {
+        "type": "package",
+        "dependencies": {
+          "Xamarin.Forms": "2.3.4.231"
+        },
+        "compile": {
+          "lib/portable-net45+wp8+win8+wpa81+MonoAndroid10+MonoTouch10+Xamarin.iOS10+UAP10/XamForms.Controls.Calendar.dll": {}
+        },
+        "runtime": {
+          "lib/portable-net45+wp8+win8+wpa81+MonoAndroid10+MonoTouch10+Xamarin.iOS10+UAP10/XamForms.Controls.Calendar.dll": {}
+        }
       }
     }
   },
@@ -3893,6 +3905,29 @@
         "xamarin.forms.3.3.0.967583.nupkg.sha512",
         "xamarin.forms.nuspec"
       ]
+    },
+    "XamForms.Controls.Calendar/1.1.1": {
+      "sha512": "2n4oxOO7XWVD1secr1Ez6Ai3JkqZT77XH2MY5U20UKkM5cMKbO47nDb28WaEO766rxDnc4EWP8vg+3R0jxQIPQ==",
+      "type": "package",
+      "path": "xamforms.controls.calendar/1.1.1",
+      "files": [
+        ".signature.p7s",
+        "lib/MonoAndroid10/XamForms.Controls.Calendar.Droid.dll",
+        "lib/MonoAndroid10/XamForms.Controls.Calendar.dll",
+        "lib/MonoTouch10/XamForms.Controls.Calendar.dll",
+        "lib/MonoTouch10/XamForms.Controls.Calendar.iOS.dll",
+        "lib/UAP10/XamForms.Controls.Calendar.UWP.dll",
+        "lib/UAP10/XamForms.Controls.Calendar.dll",
+        "lib/Xamarin.iOS10/XamForms.Controls.Calendar.dll",
+        "lib/Xamarin.iOS10/XamForms.Controls.Calendar.iOS.dll",
+        "lib/portable-net45+wp8+win8+wpa81+MonoAndroid10+MonoTouch10+Xamarin.iOS10+UAP10/XamForms.Controls.Calendar.dll",
+        "lib/win81/XamForms.Controls.Calendar.Windows.dll",
+        "lib/win81/XamForms.Controls.Calendar.dll",
+        "lib/wpa81/XamForms.Controls.Calendar.WinPhone.dll",
+        "lib/wpa81/XamForms.Controls.Calendar.dll",
+        "xamforms.controls.calendar.1.1.1.nupkg.sha512",
+        "xamforms.controls.calendar.nuspec"
+      ]
     }
   },
   "projectFileDependencyGroups": {
@@ -3900,6 +3935,7 @@
       "Microsoft.Azure.Mobile.Client >= 4.1.1",
       "NETStandard.Library >= 2.0.3",
       "Xam.Plugins.Forms.ImageCircle >= 3.0.0.5",
+      "XamForms.Controls.Calendar >= 1.1.1",
       "Xamarin.Forms >= 3.3.0.967583"
     ]
   },
@@ -3956,6 +3992,10 @@
             "target": "Package",
             "version": "[3.0.0.5, )"
           },
+          "XamForms.Controls.Calendar": {
+            "target": "Package",
+            "version": "[1.1.1, )"
+          },
           "Xamarin.Forms": {
             "target": "Package",
             "version": "[3.3.0.967583, )"
@@ -3968,5 +4008,17 @@
         "warn": true
       }
     }
-  }
+  },
+  "logs": [
+    {
+      "code": "NU1701",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Package 'XamForms.Controls.Calendar 1.1.1' was restored using '.NETFramework,Version=v4.6.1' instead of the project target framework '.NETStandard,Version=v2.0'. This package may not be fully compatible with your project.",
+      "libraryId": "XamForms.Controls.Calendar",
+      "targetGraphs": [
+        ".NETStandard,Version=v2.0"
+      ]
+    }
+  ]
 }

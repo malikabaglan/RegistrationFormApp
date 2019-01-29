@@ -1,12 +1,15 @@
 ﻿<Properties StartupConfiguration="{B22A5BB2-F454-4E55-8567-24B4C584C60B}|Default">
-  <MonoDevelop.Ide.Workbench ActiveDocument="RegistrationForm.iOS/Main.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="RegistrationForm/TabbedProfessionPage.xaml">
     <Files>
       <File FileName="RegistrationForm/IErrorStyle.cs" Line="1" Column="1" />
-      <File FileName="RegistrationForm.Android/MainActivity.cs" Line="22" Column="40" />
+      <File FileName="RegistrationForm.Android/MainActivity.cs" Line="22" Column="53" />
       <File FileName="RegistrationForm.Android/EntryRenderer_Droid.cs" Line="1" Column="1" />
       <File FileName="RegistrationForm/MainPage.xaml.cs" Line="1" Column="1" />
-      <File FileName="RegistrationForm.iOS/AppDelegate.cs" Line="1" Column="1" />
-      <File FileName="RegistrationForm.iOS/Main.cs" Line="1" Column="1" />
+      <File FileName="RegistrationForm.iOS/AppDelegate.cs" Line="26" Column="51" />
+      <File FileName="RegistrationForm/User_ProffessionPage.xaml" Line="8" Column="9" />
+      <File FileName="RegistrationForm/User_ProffessionPage.xaml.cs" Line="16" Column="1" />
+      <File FileName="RegistrationForm/TabbedExperiencePage.xaml" Line="7" Column="1" />
+      <File FileName="RegistrationForm/TabbedProfessionPage.xaml" Line="6" Column="15" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />

@@ -238,12 +238,27 @@
           "build/Xamarin.Forms.targets": {}
         }
       },
+      "XamForms.Controls.Calendar/1.1.1": {
+        "type": "package",
+        "dependencies": {
+          "Xamarin.Forms": "2.3.4.231"
+        },
+        "compile": {
+          "lib/Xamarin.iOS10/XamForms.Controls.Calendar.dll": {},
+          "lib/Xamarin.iOS10/XamForms.Controls.Calendar.iOS.dll": {}
+        },
+        "runtime": {
+          "lib/Xamarin.iOS10/XamForms.Controls.Calendar.dll": {},
+          "lib/Xamarin.iOS10/XamForms.Controls.Calendar.iOS.dll": {}
+        }
+      },
       "RegistrationForm/1.0.0": {
         "type": "project",
         "framework": ".NETStandard,Version=v2.0",
         "dependencies": {
           "Microsoft.Azure.Mobile.Client": "4.1.1",
           "Xam.Plugins.Forms.ImageCircle": "3.0.0.5",
+          "XamForms.Controls.Calendar": "1.1.1",
           "Xamarin.Forms": "3.3.0.967583"
         },
         "compile": {
@@ -491,12 +506,27 @@
           "build/Xamarin.Forms.targets": {}
         }
       },
+      "XamForms.Controls.Calendar/1.1.1": {
+        "type": "package",
+        "dependencies": {
+          "Xamarin.Forms": "2.3.4.231"
+        },
+        "compile": {
+          "lib/Xamarin.iOS10/XamForms.Controls.Calendar.dll": {},
+          "lib/Xamarin.iOS10/XamForms.Controls.Calendar.iOS.dll": {}
+        },
+        "runtime": {
+          "lib/Xamarin.iOS10/XamForms.Controls.Calendar.dll": {},
+          "lib/Xamarin.iOS10/XamForms.Controls.Calendar.iOS.dll": {}
+        }
+      },
       "RegistrationForm/1.0.0": {
         "type": "project",
         "framework": ".NETStandard,Version=v2.0",
         "dependencies": {
           "Microsoft.Azure.Mobile.Client": "4.1.1",
           "Xam.Plugins.Forms.ImageCircle": "3.0.0.5",
+          "XamForms.Controls.Calendar": "1.1.1",
           "Xamarin.Forms": "3.3.0.967583"
         },
         "compile": {
@@ -744,12 +774,27 @@
           "build/Xamarin.Forms.targets": {}
         }
       },
+      "XamForms.Controls.Calendar/1.1.1": {
+        "type": "package",
+        "dependencies": {
+          "Xamarin.Forms": "2.3.4.231"
+        },
+        "compile": {
+          "lib/Xamarin.iOS10/XamForms.Controls.Calendar.dll": {},
+          "lib/Xamarin.iOS10/XamForms.Controls.Calendar.iOS.dll": {}
+        },
+        "runtime": {
+          "lib/Xamarin.iOS10/XamForms.Controls.Calendar.dll": {},
+          "lib/Xamarin.iOS10/XamForms.Controls.Calendar.iOS.dll": {}
+        }
+      },
       "RegistrationForm/1.0.0": {
         "type": "project",
         "framework": ".NETStandard,Version=v2.0",
         "dependencies": {
           "Microsoft.Azure.Mobile.Client": "4.1.1",
           "Xam.Plugins.Forms.ImageCircle": "3.0.0.5",
+          "XamForms.Controls.Calendar": "1.1.1",
           "Xamarin.Forms": "3.3.0.967583"
         },
         "compile": {
@@ -997,12 +1042,27 @@
           "build/Xamarin.Forms.targets": {}
         }
       },
+      "XamForms.Controls.Calendar/1.1.1": {
+        "type": "package",
+        "dependencies": {
+          "Xamarin.Forms": "2.3.4.231"
+        },
+        "compile": {
+          "lib/Xamarin.iOS10/XamForms.Controls.Calendar.dll": {},
+          "lib/Xamarin.iOS10/XamForms.Controls.Calendar.iOS.dll": {}
+        },
+        "runtime": {
+          "lib/Xamarin.iOS10/XamForms.Controls.Calendar.dll": {},
+          "lib/Xamarin.iOS10/XamForms.Controls.Calendar.iOS.dll": {}
+        }
+      },
       "RegistrationForm/1.0.0": {
         "type": "project",
         "framework": ".NETStandard,Version=v2.0",
         "dependencies": {
           "Microsoft.Azure.Mobile.Client": "4.1.1",
           "Xam.Plugins.Forms.ImageCircle": "3.0.0.5",
+          "XamForms.Controls.Calendar": "1.1.1",
           "Xamarin.Forms": "3.3.0.967583"
         },
         "compile": {
@@ -1340,6 +1400,29 @@
         "xamarin.forms.nuspec"
       ]
     },
+    "XamForms.Controls.Calendar/1.1.1": {
+      "sha512": "2n4oxOO7XWVD1secr1Ez6Ai3JkqZT77XH2MY5U20UKkM5cMKbO47nDb28WaEO766rxDnc4EWP8vg+3R0jxQIPQ==",
+      "type": "package",
+      "path": "xamforms.controls.calendar/1.1.1",
+      "files": [
+        ".signature.p7s",
+        "lib/MonoAndroid10/XamForms.Controls.Calendar.Droid.dll",
+        "lib/MonoAndroid10/XamForms.Controls.Calendar.dll",
+        "lib/MonoTouch10/XamForms.Controls.Calendar.dll",
+        "lib/MonoTouch10/XamForms.Controls.Calendar.iOS.dll",
+        "lib/UAP10/XamForms.Controls.Calendar.UWP.dll",
+        "lib/UAP10/XamForms.Controls.Calendar.dll",
+        "lib/Xamarin.iOS10/XamForms.Controls.Calendar.dll",
+        "lib/Xamarin.iOS10/XamForms.Controls.Calendar.iOS.dll",
+        "lib/portable-net45+wp8+win8+wpa81+MonoAndroid10+MonoTouch10+Xamarin.iOS10+UAP10/XamForms.Controls.Calendar.dll",
+        "lib/win81/XamForms.Controls.Calendar.Windows.dll",
+        "lib/win81/XamForms.Controls.Calendar.dll",
+        "lib/wpa81/XamForms.Controls.Calendar.WinPhone.dll",
+        "lib/wpa81/XamForms.Controls.Calendar.dll",
+        "xamforms.controls.calendar.1.1.1.nupkg.sha512",
+        "xamforms.controls.calendar.nuspec"
+      ]
+    },
     "RegistrationForm/1.0.0": {
       "type": "project",
       "path": "../RegistrationForm/RegistrationForm.csproj",
@@ -1350,6 +1433,7 @@
     "Xamarin.iOS,Version=v1.0": [
       "RegistrationForm >= 1.0.0",
       "Xam.Plugins.Forms.ImageCircle >= 3.0.0.5",
+      "XamForms.Controls.Calendar >= 1.1.1",
       "Xamarin.Forms >= 3.3.0.967583"
     ]
   },
@@ -1390,6 +1474,10 @@
           "Xam.Plugins.Forms.ImageCircle": {
             "target": "Package",
             "version": "[3.0.0.5, )"
+          },
+          "XamForms.Controls.Calendar": {
+            "target": "Package",
+            "version": "[1.1.1, )"
           },
           "Xamarin.Forms": {
             "target": "Package",

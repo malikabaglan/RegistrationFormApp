@@ -54,3 +54,5 @@
 /Users/malikabaglan/.nuget/packages/validation/2.2.8/lib/dotnet/Validation.dll
 /Library/Frameworks/Xamarin.iOS.framework/Versions/12.2.1.13/lib/mono/Xamarin.iOS/Facades/System.Resources.ResourceManager.dll
 /Library/Frameworks/Xamarin.iOS.framework/Versions/12.2.1.13/lib/mono/Xamarin.iOS/Facades/System.Diagnostics.Tools.dll
+/Users/malikabaglan/.nuget/packages/xamforms.controls.calendar/1.1.1/lib/Xamarin.iOS10/XamForms.Controls.Calendar.dll
+/Users/malikabaglan/.nuget/packages/xamforms.controls.calendar/1.1.1/lib/Xamarin.iOS10/XamForms.Controls.Calendar.iOS.dll

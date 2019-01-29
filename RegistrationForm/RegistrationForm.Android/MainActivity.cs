@@ -19,6 +19,7 @@ namespace RegistrationForm.Droid
 
             base.OnCreate(savedInstanceState);
             global::Xamarin.Forms.Forms.Init(this, savedInstanceState);
+            XamForms.Controls.Droid.Calendar.Init();
             LoadApplication(new App());
         }
     }

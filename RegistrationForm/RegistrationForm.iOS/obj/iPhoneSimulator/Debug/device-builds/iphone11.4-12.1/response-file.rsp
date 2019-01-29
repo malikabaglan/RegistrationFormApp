@@ -209,6 +209,8 @@
 -r=/Users/malikabaglan/.nuget/packages/xamarin.forms/3.3.0.967583/lib/Xamarin.iOS10/zh-HK/Xamarin.Forms.Platform.iOS.resources.dll
 -r=/Users/malikabaglan/.nuget/packages/xamarin.forms/3.3.0.967583/lib/Xamarin.iOS10/zh-Hans/Xamarin.Forms.Platform.iOS.resources.dll
 -r=/Users/malikabaglan/.nuget/packages/xamarin.forms/3.3.0.967583/lib/Xamarin.iOS10/zh-Hant/Xamarin.Forms.Platform.iOS.resources.dll
+-r=/Users/malikabaglan/.nuget/packages/xamforms.controls.calendar/1.1.1/lib/Xamarin.iOS10/XamForms.Controls.Calendar.dll
+-r=/Users/malikabaglan/.nuget/packages/xamforms.controls.calendar/1.1.1/lib/Xamarin.iOS10/XamForms.Controls.Calendar.iOS.dll
 -r=/Users/malikabaglan/Projects/RegistrationFormApp/RegistrationForm/RegistrationForm/bin/Debug/netstandard2.0/RegistrationForm.dll
 --target-framework=Xamarin.iOS,v1.0
 --root-assembly=/Users/malikabaglan/Projects/RegistrationFormApp/RegistrationForm/RegistrationForm.iOS/bin/iPhoneSimulator/Debug/RegistrationForm.iOS.exe

@@ -108,6 +108,8 @@
 /Users/malikabaglan/Projects/RegistrationFormApp/RegistrationForm/RegistrationForm.iOS/bin/iPhoneSimulator/Debug/zh-HK/Xamarin.Forms.Platform.iOS.resources.dll
 /Users/malikabaglan/Projects/RegistrationFormApp/RegistrationForm/RegistrationForm.iOS/bin/iPhoneSimulator/Debug/zh-Hans/Xamarin.Forms.Platform.iOS.resources.dll
 /Users/malikabaglan/Projects/RegistrationFormApp/RegistrationForm/RegistrationForm.iOS/bin/iPhoneSimulator/Debug/zh-Hant/Xamarin.Forms.Platform.iOS.resources.dll
+/Users/malikabaglan/Projects/RegistrationFormApp/RegistrationForm/RegistrationForm.iOS/bin/iPhoneSimulator/Debug/XamForms.Controls.Calendar.dll
+/Users/malikabaglan/Projects/RegistrationFormApp/RegistrationForm/RegistrationForm.iOS/bin/iPhoneSimulator/Debug/XamForms.Controls.Calendar.iOS.dll
 /Users/malikabaglan/Projects/RegistrationFormApp/RegistrationForm/RegistrationForm.iOS/bin/iPhoneSimulator/Debug/RegistrationForm.dll
 /Users/malikabaglan/Projects/RegistrationFormApp/RegistrationForm/RegistrationForm.iOS/bin/iPhoneSimulator/Debug/RegistrationForm.pdb
 /Users/malikabaglan/Projects/RegistrationFormApp/RegistrationForm/RegistrationForm.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone11.4-12.1/ibtool/_BundleResourceWithLogicalName.items

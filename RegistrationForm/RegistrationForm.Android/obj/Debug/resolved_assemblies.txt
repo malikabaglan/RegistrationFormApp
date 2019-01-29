@@ -44,6 +44,8 @@
 /Users/malikabaglan/Projects/RegistrationFormApp/RegistrationForm/RegistrationForm.Android/obj/Debug/android/assets/Xamarin.Forms.Platform.Android.dll
 /Users/malikabaglan/Projects/RegistrationFormApp/RegistrationForm/RegistrationForm.Android/obj/Debug/android/assets/Xamarin.Forms.Platform.dll
 /Users/malikabaglan/Projects/RegistrationFormApp/RegistrationForm/RegistrationForm.Android/obj/Debug/android/assets/Xamarin.Forms.Xaml.dll
+/Users/malikabaglan/Projects/RegistrationFormApp/RegistrationForm/RegistrationForm.Android/obj/Debug/android/assets/XamForms.Controls.Calendar.dll
+/Users/malikabaglan/Projects/RegistrationFormApp/RegistrationForm/RegistrationForm.Android/obj/Debug/android/assets/XamForms.Controls.Calendar.Droid.dll
 /Users/malikabaglan/Projects/RegistrationFormApp/RegistrationForm/RegistrationForm.Android/obj/Debug/android/assets/System.Runtime.dll
 /Users/malikabaglan/Projects/RegistrationFormApp/RegistrationForm/RegistrationForm.Android/obj/Debug/android/assets/System.ComponentModel.Composition.dll
 /Users/malikabaglan/Projects/RegistrationFormApp/RegistrationForm/RegistrationForm.Android/obj/Debug/android/assets/System.IO.dll
