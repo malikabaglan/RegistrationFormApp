@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.IO;
 using System.Linq;
 
 using Foundation;
@@ -24,6 +25,12 @@ namespace RegistrationForm.iOS
         {
             global::Xamarin.Forms.Forms.Init();
             XamForms.Controls.iOS.Calendar.Init();
+
+          
+   
+
+
+
             LoadApplication(new App());
 
             return base.FinishedLaunching(app, options);

@@ -17,7 +17,7 @@
                     <Button Text="SSNumber" Clicked="Handle_Clicked"  BackgroundColor="Yellow" ></Button>
                     <Button Text="Date of Birth"  BackgroundColor="Yellow" Clicked="DateOfBirth_Clicked"></Button>
                      <Button Text="Education Details"  BackgroundColor="Yellow" Clicked="EducationDetails_Clicked"></Button>
-                     <Button Text="License Details"   BackgroundColor="Yellow"></Button>
+                     <Button Text="License Details" Clicked="LicenseDetails_Clicked"  BackgroundColor="Yellow"></Button>
                      <Button Text="Address Details"  BackgroundColor="Yellow" Clicked="AddressDetails_Clicked"></Button>
                      <Button Text="Proffesion Details" Clicked="Proffession_Clicked" BackgroundColor="Yellow"></Button>
                 </StackLayout>

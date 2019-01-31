@@ -1,5 +1,6 @@
 ﻿using System;
 using Microsoft.WindowsAzure.MobileServices;
+using SQLite;
 using Xamarin.Forms;
 using Xamarin.Forms.Xaml;
 
@@ -10,7 +11,7 @@ namespace RegistrationForm
 
 
     {
-
+     
 
         public static MobileServiceClient MobileService = new MobileServiceClient("https://malikasapp.azurewebsites.net");
 
@@ -23,6 +24,11 @@ namespace RegistrationForm
             InitializeComponent();
 
             MainPage = new NavigationPage(new MainPage());
+        
+
+
+
+
         }
 
         protected override void OnStart()

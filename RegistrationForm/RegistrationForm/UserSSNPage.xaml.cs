@@ -7,6 +7,11 @@ namespace RegistrationForm
 {
     public partial class UserSSNPage : MasterDetailPage
     {
+        void LicenseDetails_Clicked(object sender, System.EventArgs e)
+        {
+            Navigation.PushAsync(new UserLicensesDetailPage());
+        }
+
         void DateOfBirth_Clicked(object sender, System.EventArgs e)
         {
             Navigation.PushAsync(new User_DateOfBirth_Page());

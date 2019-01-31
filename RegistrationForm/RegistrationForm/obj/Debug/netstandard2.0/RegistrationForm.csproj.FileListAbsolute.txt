@@ -22,6 +22,7 @@
 /Users/malikabaglan/Projects/RegistrationFormApp/RegistrationForm/RegistrationForm/obj/Debug/netstandard2.0/TabbedExperiencePage.xaml.g.cs
 /Users/malikabaglan/Projects/RegistrationFormApp/RegistrationForm/RegistrationForm/obj/Debug/netstandard2.0/TabbedProfessionPage.xaml.g.cs
 /Users/malikabaglan/Projects/RegistrationFormApp/RegistrationForm/RegistrationForm/obj/Debug/netstandard2.0/UserAddressDetailsPage.xaml.g.cs
+/Users/malikabaglan/Projects/RegistrationFormApp/RegistrationForm/RegistrationForm/obj/Debug/netstandard2.0/UserLicensesDetailPage.xaml.g.cs
 /Users/malikabaglan/Projects/RegistrationFormApp/RegistrationForm/RegistrationForm/obj/Debug/netstandard2.0/UserSSNPage.xaml.g.cs
 /Users/malikabaglan/Projects/RegistrationFormApp/RegistrationForm/RegistrationForm/obj/Debug/netstandard2.0/UserSSNumberPage.xaml.g.cs
 /Users/malikabaglan/Projects/RegistrationFormApp/RegistrationForm/RegistrationForm/obj/Debug/netstandard2.0/User_DateOfBirth_Page.xaml.g.cs

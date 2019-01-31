@@ -54,5 +54,9 @@
 /Users/malikabaglan/.nuget/packages/validation/2.2.8/lib/dotnet/Validation.dll
 /Library/Frameworks/Xamarin.iOS.framework/Versions/12.2.1.13/lib/mono/Xamarin.iOS/Facades/System.Resources.ResourceManager.dll
 /Library/Frameworks/Xamarin.iOS.framework/Versions/12.2.1.13/lib/mono/Xamarin.iOS/Facades/System.Diagnostics.Tools.dll
+/Users/malikabaglan/.nuget/packages/sqlite-net-pcl/1.5.231/lib/netstandard1.1/SQLite-net.dll
+/Users/malikabaglan/.nuget/packages/sqlitepclraw.core/1.1.11/lib/Xamarin.iOS10/SQLitePCLRaw.core.dll
+/Users/malikabaglan/.nuget/packages/sqlitepclraw.bundle_green/1.1.11/lib/Xamarin.iOS10/SQLitePCLRaw.batteries_v2.dll
+/Users/malikabaglan/.nuget/packages/sqlitepclraw.provider.sqlite3.ios_unified/1.1.11/lib/Xamarin.iOS10/SQLitePCLRaw.provider.sqlite3.dll
 /Users/malikabaglan/.nuget/packages/xamforms.controls.calendar/1.1.1/lib/Xamarin.iOS10/XamForms.Controls.Calendar.dll
 /Users/malikabaglan/.nuget/packages/xamforms.controls.calendar/1.1.1/lib/Xamarin.iOS10/XamForms.Controls.Calendar.iOS.dll

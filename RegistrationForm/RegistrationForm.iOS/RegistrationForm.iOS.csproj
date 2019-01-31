@@ -98,6 +98,7 @@
     <Compile Include="EntryRenderer_Ios.cs" />
     <Compile Include="ButtonRenderer_Ios.cs" />
     <Compile Include="LabelRenderer_Ios.cs" />
+    <Compile Include="DatabaseConnection_iOS.cs" />
   </ItemGroup>
   <ItemGroup>
     <InterfaceDefinition Include="Resources\LaunchScreen.storyboard" />
