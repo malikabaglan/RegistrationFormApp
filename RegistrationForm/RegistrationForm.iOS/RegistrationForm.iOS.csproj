@@ -97,6 +97,7 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="EntryRenderer_Ios.cs" />
     <Compile Include="ButtonRenderer_Ios.cs" />
+    <Compile Include="LabelRenderer_Ios.cs" />
   </ItemGroup>
   <ItemGroup>
     <InterfaceDefinition Include="Resources\LaunchScreen.storyboard" />
@@ -157,6 +158,9 @@
     <PackageReference Include="XamForms.Controls.Calendar">
       <Version>1.1.1</Version>
     </PackageReference>
+    <PackageReference Include="sqlite-net-pcl">
+      <Version>1.5.231</Version>
+    </PackageReference>
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath)\Xamarin\iOS\Xamarin.iOS.CSharp.targets" />
   <ItemGroup>
@@ -168,5 +172,7 @@
   <ItemGroup>
     <BundleResource Include="Resources\nabp.jpg" />
     <BundleResource Include="Resources\hamburger.png" />
+    <BundleResource Include="Resources\unchecked.png" />
+    <BundleResource Include="Resources\checked.png" />
   </ItemGroup>
 </Project>

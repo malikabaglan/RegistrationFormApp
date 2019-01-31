@@ -2,17 +2,31 @@
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
               xmlns:local="clr-namespace:RegistrationForm" 
-             
-             
-          xmlns:Validators="clr-namespace:RegistrationForm.Validators.Implementations"
-             xmlns:Behaviors="clr-namespace:RegistrationForm.Behaviors"
-            x:Class="RegistrationForm.UserSSNumberPage">
+               xmlns:Validators="clr-namespace:RegistrationForm.Validators.Implementations"
+                xmlns:Behaviors="clr-namespace:RegistrationForm.Behaviors"
+           xmlns:control="clr-namespace:RegistrationForm"
+        x:Class="RegistrationForm.UserSSNumberPage">
  
     
 
-   <StackLayout Padding="60"  HorizontalOptions="Center" VerticalOptions="Center">
-        <Label Margin="20">Enter SSN Number</Label>
-        <Entry x:Name="ssnNum" Placeholder="ssn">
+ <StackLayout  HorizontalOptions="Center" Margin="0,90,0,250" VerticalOptions="Center">
+        
+          
+      
+
+     
+            <control:CustomLabelRenderer FontSize="17.5"
+                                      CurvedBackgroundColor="#7DB040"
+                                      TextColor="White"
+                                      Text="Enter your Social Secuirity Number"
+                                      HorizontalOptions="FillAndExpand"
+                                      CurvedCornerRadius="16"
+                                      HeightRequest="60"
+                                      VerticalTextAlignment="Center"
+                                      HorizontalTextAlignment="Center"/>
+        
+      <Entry Margin="0,40" x:Name="ssnNum"  PlaceholderColor="Gray" 
+            HeightRequest="40" Placeholder="Social Secuirity Number">
             <Entry.Behaviors>
                 <Behaviors:ValidationBehavior PropertyName="Text">
                     <Behaviors:ValidationBehavior.Validators>
@@ -25,7 +39,7 @@
             </Entry.Behaviors>
         </Entry>
         
-        <Entry  x:Name="ssnConf" Margin="0,20" Placeholder="Confirm ssn">
+        <Entry  x:Name="ssnConf"    HeightRequest="40"  Margin="0,20" Placeholder="Confirm Social Secuirity Number" PlaceholderColor="Gray" >
             <Entry.Behaviors>
                 <Behaviors:ValidationBehavior PropertyName="Text">
                     <Behaviors:ValidationBehavior.Validators>
@@ -38,14 +52,14 @@
             </Entry.Behaviors>
         </Entry>
         
-        <Button Text="Submit" FontSize="Large" Clicked="Handle_Clicked"> </Button>
+        <Button  Text="Submit" FontSize="Large" BackgroundColor="Green" TextColor="White" Clicked="Handle_Clicked"> </Button>
         
         
     </StackLayout>
 </ContentPage>  
     
     
-  
+ 
     
     
     

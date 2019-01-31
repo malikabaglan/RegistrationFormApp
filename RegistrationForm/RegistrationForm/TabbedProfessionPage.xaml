@@ -1,6 +1,114 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<ContentPage xmlns="http://xamarin.com/schemas/2014/forms" xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" x:Class="RegistrationForm.TabbedProfessionPage">
-    <ContentPage.Content>
-         <Label Text="I am" BackgroundColor="Red"></Label>
-    </ContentPage.Content>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" 
+             x:Class="RegistrationForm.TabbedProfessionPage"
+              Padding="20"
+            >
+
+        
+      
+    <StackLayout Padding="40" Margin="0,0,0,180" HorizontalOptions="Center" VerticalOptions="Center">
+        
+        <Image Source="nabp.jpg" HeightRequest="80" WidthRequest="80" VerticalOptions="Start" ></Image>
+        
+        <Grid  RowSpacing="15">
+            <Grid.RowDefinitions>
+                <RowDefinition Height="80"></RowDefinition>
+                <RowDefinition Height="*"></RowDefinition>
+            </Grid.RowDefinitions>
+            
+            <Label Text="Select your proffession" TextColor="Red" Margin="0,40,0,0"  FontSize="Large"></Label>
+            
+    
+                
+            <Grid  Grid.Row="1" ColumnSpacing="10" >
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="25" />
+                    <ColumnDefinition Width="*" />
+                </Grid.ColumnDefinitions>
+                <Image Grid.Column="0" Source="{Binding CheckBoxMale}" WidthRequest="20" HeightRequest="20">
+                    <Image.GestureRecognizers>
+                        <TapGestureRecognizer Command="{Binding TappedCheckBoxMale}"  NumberOfTapsRequired="1" />
+                    </Image.GestureRecognizers>
+                </Image>
+                <Label Grid.Column="1" Text="Pharmacist"></Label>
+                </Grid>
+            
+            
+                <Grid Grid.Row="2" RowSpacing="20">
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="25" />
+                        <ColumnDefinition Width="*" />
+                    </Grid.ColumnDefinitions>
+                    
+                      <Image Grid.Column="0" Source="{Binding CheckBoxFemale}" WidthRequest="20" HeightRequest="20">
+                    <Image.GestureRecognizers>
+                        <TapGestureRecognizer Command="{Binding TappedCheckBoxFemale}"  NumberOfTapsRequired="1" />
+                    </Image.GestureRecognizers>
+                </Image>
+                <Label Grid.Column="1" Text="Pharmacist Intern"></Label>
+               </Grid>
+            
+            
+            
+                <Grid Grid.Row="3">
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="25" />
+                        <ColumnDefinition Width="*" />
+                    </Grid.ColumnDefinitions>
+                    
+                      <Image Grid.Column="0" Source="{Binding CheckBoxStrudent}"
+                             WidthRequest="20" HeightRequest="20">
+                    <Image.GestureRecognizers>
+                        <TapGestureRecognizer Command="{Binding TappedCheckBoxStudent}" 
+                                              NumberOfTapsRequired="1" />
+                    </Image.GestureRecognizers>
+                </Image>
+                <Label Grid.Column="1" Text="Pharmacist Student"></Label>
+               </Grid>
+            
+            
+            
+            <Grid Grid.Row="4">
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="25"></ColumnDefinition>
+                <ColumnDefinition Width="*"/>
+                </Grid.ColumnDefinitions>
+                
+                <Image Grid.Column="0" Source="{Binding CheckBoxTechnician}" WidthRequest="20" HeightRequest="20">
+                    
+                    <Image.GestureRecognizers>
+                        <TapGestureRecognizer Command="{Binding TappedCheckBoxTechician}" NumberOfTapsRequired="1"></TapGestureRecognizer>
+                    </Image.GestureRecognizers>
+           </Image>
+                <Label Grid.Column="1"  Text="Pharmacist Technician"></Label>
+               </Grid>
+                
+                
+                
+                
+                
+                
+               
+
+               <Grid Grid.Row="5">
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="25" />
+                        <ColumnDefinition Width="*" />
+                    </Grid.ColumnDefinitions>
+                    
+                  <Image Grid.Column="0" Source="{Binding CheckBoxTechnicianTraining}"
+                             WidthRequest="20" HeightRequest="20">
+                    <Image.GestureRecognizers>
+                        <TapGestureRecognizer Command="{Binding TappedCheckBoxTechicianTraining}" 
+                                              NumberOfTapsRequired="1" />
+                    </Image.GestureRecognizers>
+                </Image>
+                <Label Grid.Column="1" Text="Pharmacist Student Training"></Label>
+               </Grid>
+               
+               
+                
+             </Grid>
+    </StackLayout>
 </ContentPage>

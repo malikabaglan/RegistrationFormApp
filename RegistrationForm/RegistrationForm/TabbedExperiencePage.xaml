@@ -1,6 +1,43 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<ContentPage xmlns="http://xamarin.com/schemas/2014/forms" xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" x:Class="RegistrationForm.TabbedExperiencePage">
-    <ContentPage.Content>
-        <Label Text="I am" BackgroundColor="Red"></Label>
-    </ContentPage.Content >
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms" 
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" 
+          
+             xmlns:local="clr-namespace:RegistrationForm"
+             x:Class="RegistrationForm.TabbedExperiencePage">
+    
+    
+    
+    
+    <ContentPage.BindingContext>
+       <local:MainViewModal/>
+    </ContentPage.BindingContext >
+    
+<ListView  ItemsSource="{Binding Products}"
+           HasUnevenRows="true"
+           Margin="40,70"
+         
+           ItemTapped="Handle_ItemTapped">
+        <ListView.ItemTemplate>
+            <DataTemplate>
+                <ViewCell>
+                    <StackLayout>
+
+                        <Label Text="{Binding Title}"></Label>
+                        <Button Text="Details" IsVisible="{Binding isVisible}"></Button>
+                        <Button Text="Add Experience" TextColor="Red" ></Button>
+                        
+                    </StackLayout>
+                </ViewCell>
+            </DataTemplate>
+        </ListView.ItemTemplate>
+    
+    
+    </ListView>    
+    
+    
+    
+    
+    
+    
+    
 </ContentPage>

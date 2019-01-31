@@ -12,6 +12,12 @@
 /Users/malikabaglan/Projects/RegistrationFormApp/RegistrationForm/RegistrationForm.Android/obj/Debug/android/assets/PInvoke.NCrypt.dll
 /Users/malikabaglan/Projects/RegistrationFormApp/RegistrationForm/RegistrationForm.Android/obj/Debug/android/assets/PInvoke.Windows.Core.dll
 /Users/malikabaglan/Projects/RegistrationFormApp/RegistrationForm/RegistrationForm.Android/obj/Debug/android/assets/RegistrationForm.dll
+/Users/malikabaglan/Projects/RegistrationFormApp/RegistrationForm/RegistrationForm.Android/obj/Debug/android/assets/SQLite-net.dll
+/Users/malikabaglan/Projects/RegistrationFormApp/RegistrationForm/RegistrationForm.Android/obj/Debug/android/assets/SQLitePCLRaw.batteries_green.dll
+/Users/malikabaglan/Projects/RegistrationFormApp/RegistrationForm/RegistrationForm.Android/obj/Debug/android/assets/SQLitePCLRaw.batteries_v2.dll
+/Users/malikabaglan/Projects/RegistrationFormApp/RegistrationForm/RegistrationForm.Android/obj/Debug/android/assets/SQLitePCLRaw.core.dll
+/Users/malikabaglan/Projects/RegistrationFormApp/RegistrationForm/RegistrationForm.Android/obj/Debug/android/assets/SQLitePCLRaw.lib.e_sqlite3.dll
+/Users/malikabaglan/Projects/RegistrationFormApp/RegistrationForm/RegistrationForm.Android/obj/Debug/android/assets/SQLitePCLRaw.provider.e_sqlite3.dll
 /Users/malikabaglan/Projects/RegistrationFormApp/RegistrationForm/RegistrationForm.Android/obj/Debug/android/assets/System.Core.dll
 /Users/malikabaglan/Projects/RegistrationFormApp/RegistrationForm/RegistrationForm.Android/obj/Debug/android/assets/System.dll
 /Users/malikabaglan/Projects/RegistrationFormApp/RegistrationForm/RegistrationForm.Android/obj/Debug/android/assets/System.IdentityModel.dll

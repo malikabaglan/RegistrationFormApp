@@ -82,6 +82,8 @@
 /Users/malikabaglan/Projects/RegistrationFormApp/RegistrationForm/RegistrationForm.Android/obj/Debug/res/mipmap-xxxhdpi/launcher_foreground.png
 /Users/malikabaglan/Projects/RegistrationFormApp/RegistrationForm/RegistrationForm.Android/obj/Debug/res/drawable/nabp.jpg
 /Users/malikabaglan/Projects/RegistrationFormApp/RegistrationForm/RegistrationForm.Android/obj/Debug/res/drawable/hamburger.png
+/Users/malikabaglan/Projects/RegistrationFormApp/RegistrationForm/RegistrationForm.Android/obj/Debug/res/drawable/unchecked.png
+/Users/malikabaglan/Projects/RegistrationFormApp/RegistrationForm/RegistrationForm.Android/obj/Debug/res/drawable/checked.png
 /Users/malikabaglan/Projects/RegistrationFormApp/RegistrationForm/RegistrationForm.Android/obj/Debug/R.cs.flag
 /Users/malikabaglan/Projects/RegistrationFormApp/RegistrationForm/RegistrationForm.Android/obj/Debug/R.txt
 /Users/malikabaglan/Projects/RegistrationFormApp/RegistrationForm/RegistrationForm.Android/obj/Debug/uploadflags.txt

@@ -10,7 +10,8 @@
         <ToolbarItem  Text="Add"></ToolbarItem>
         
     </TabbedPage.ToolbarItems>-->
-    <local:TabbedProfessionPage Title="Profession" />
+    
+    <local:TabbedProfessionPage  Title="Profession" />
     <local:TabbedExperiencePage  Title="Experience"/>
 
     

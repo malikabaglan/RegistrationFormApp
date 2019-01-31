@@ -65,6 +65,11 @@
 /Users/malikabaglan/Projects/RegistrationFormApp/RegistrationForm/RegistrationForm.iOS/bin/iPhoneSimulator/Debug/PInvoke.Kernel32.dll
 /Users/malikabaglan/Projects/RegistrationFormApp/RegistrationForm/RegistrationForm.iOS/bin/iPhoneSimulator/Debug/PInvoke.NCrypt.dll
 /Users/malikabaglan/Projects/RegistrationFormApp/RegistrationForm/RegistrationForm.iOS/bin/iPhoneSimulator/Debug/PInvoke.Windows.Core.dll
+/Users/malikabaglan/Projects/RegistrationFormApp/RegistrationForm/RegistrationForm.iOS/bin/iPhoneSimulator/Debug/SQLite-net.dll
+/Users/malikabaglan/Projects/RegistrationFormApp/RegistrationForm/RegistrationForm.iOS/bin/iPhoneSimulator/Debug/SQLitePCLRaw.batteries_green.dll
+/Users/malikabaglan/Projects/RegistrationFormApp/RegistrationForm/RegistrationForm.iOS/bin/iPhoneSimulator/Debug/SQLitePCLRaw.batteries_v2.dll
+/Users/malikabaglan/Projects/RegistrationFormApp/RegistrationForm/RegistrationForm.iOS/bin/iPhoneSimulator/Debug/SQLitePCLRaw.core.dll
+/Users/malikabaglan/Projects/RegistrationFormApp/RegistrationForm/RegistrationForm.iOS/bin/iPhoneSimulator/Debug/SQLitePCLRaw.provider.sqlite3.dll
 /Users/malikabaglan/Projects/RegistrationFormApp/RegistrationForm/RegistrationForm.iOS/bin/iPhoneSimulator/Debug/Validation.dll
 /Users/malikabaglan/Projects/RegistrationFormApp/RegistrationForm/RegistrationForm.iOS/bin/iPhoneSimulator/Debug/ImageCircle.Forms.Plugin.dll
 /Users/malikabaglan/Projects/RegistrationFormApp/RegistrationForm/RegistrationForm.iOS/bin/iPhoneSimulator/Debug/Xamarin.Forms.Core.dll
@@ -118,6 +123,8 @@
 /Users/malikabaglan/Projects/RegistrationFormApp/RegistrationForm/RegistrationForm.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone11.4-12.1/coremlc/_PartialAppManifest.items
 /Users/malikabaglan/Projects/RegistrationFormApp/RegistrationForm/RegistrationForm.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone11.4-12.1/coremlc/_BundleResourceWithLogicalName.items
 /Users/malikabaglan/Projects/RegistrationFormApp/RegistrationForm/RegistrationForm.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone11.4-12.1/optimized/hamburger.png
+/Users/malikabaglan/Projects/RegistrationFormApp/RegistrationForm/RegistrationForm.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone11.4-12.1/optimized/unchecked.png
+/Users/malikabaglan/Projects/RegistrationFormApp/RegistrationForm/RegistrationForm.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone11.4-12.1/optimized/checked.png
 /Users/malikabaglan/Projects/RegistrationFormApp/RegistrationForm/RegistrationForm.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone11.4-12.1/optimized/
 /Users/malikabaglan/Projects/RegistrationFormApp/RegistrationForm/RegistrationForm.iOS/obj/iPhoneSimulator/Debug/RegistrationForm.iOS.csprojAssemblyReference.cache
 /Users/malikabaglan/Projects/RegistrationFormApp/RegistrationForm/RegistrationForm.iOS/obj/iPhoneSimulator/Debug/RegistrationForm.iOS.csproj.CoreCompileInputs.cache

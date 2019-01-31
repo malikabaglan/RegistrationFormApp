@@ -10,6 +10,7 @@ namespace RegistrationForm
         public TabbedProfessionPage()
         {
             InitializeComponent();
+            this.BindingContext = new CheckBoxLogic();
         }
     }
 }
