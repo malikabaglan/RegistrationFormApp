@@ -7,6 +7,11 @@ namespace RegistrationForm
 {
     public partial class UserSSNPage : MasterDetailPage
     {
+        void DocumentsUpload_Clicked(object sender, System.EventArgs e)
+        {
+            Navigation.PushAsync(new UserFileUploadPage());
+        }
+
         void LicenseDetails_Clicked(object sender, System.EventArgs e)
         {
             Navigation.PushAsync(new UserLicensesDetailPage());

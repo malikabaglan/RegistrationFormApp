@@ -20,6 +20,7 @@
                      <Button Text="License Details" Clicked="LicenseDetails_Clicked"  BackgroundColor="Yellow"></Button>
                      <Button Text="Address Details"  BackgroundColor="Yellow" Clicked="AddressDetails_Clicked"></Button>
                      <Button Text="Proffesion Details" Clicked="Proffession_Clicked" BackgroundColor="Yellow"></Button>
+                 <Button Text="Documents upload"  Clicked="DocumentsUpload_Clicked" BackgroundColor="Yellow"></Button>
                 </StackLayout>
             </ContentPage.Content>
         </ContentPage>

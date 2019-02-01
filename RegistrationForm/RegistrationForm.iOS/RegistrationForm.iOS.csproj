@@ -162,6 +162,9 @@
     <PackageReference Include="sqlite-net-pcl">
       <Version>1.5.231</Version>
     </PackageReference>
+    <PackageReference Include="Xam.Plugin.Media">
+      <Version>4.0.1.5</Version>
+    </PackageReference>
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath)\Xamarin\iOS\Xamarin.iOS.CSharp.targets" />
   <ItemGroup>
@@ -175,5 +178,7 @@
     <BundleResource Include="Resources\hamburger.png" />
     <BundleResource Include="Resources\unchecked.png" />
     <BundleResource Include="Resources\checked.png" />
+    <BundleResource Include="Resources\upload.png" />
+    <BundleResource Include="Resources\takephoto.png" />
   </ItemGroup>
 </Project>

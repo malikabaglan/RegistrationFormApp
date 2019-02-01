@@ -169,12 +169,14 @@
 -r=/Users/malikabaglan/.nuget/packages/pinvoke.kernel32/0.3.2/lib/portable-net45+win+wpa81+MonoAndroid10+xamarinios10+MonoTouch10/PInvoke.Kernel32.dll
 -r=/Users/malikabaglan/.nuget/packages/pinvoke.ncrypt/0.3.2/lib/portable-net45+win+wpa81+MonoAndroid10+xamarinios10+MonoTouch10/PInvoke.NCrypt.dll
 -r=/Users/malikabaglan/.nuget/packages/pinvoke.windows.core/0.3.2/lib/portable-net45+win+wpa81+MonoAndroid10+xamarinios10+MonoTouch10/PInvoke.Windows.Core.dll
+-r=/Users/malikabaglan/.nuget/packages/plugin.permissions/3.0.0.12/lib/xamarinios10/Plugin.Permissions.dll
 -r=/Users/malikabaglan/.nuget/packages/sqlite-net-pcl/1.5.231/lib/netstandard1.1/SQLite-net.dll
 -r=/Users/malikabaglan/.nuget/packages/sqlitepclraw.bundle_green/1.1.11/lib/Xamarin.iOS10/SQLitePCLRaw.batteries_green.dll
 -r=/Users/malikabaglan/.nuget/packages/sqlitepclraw.bundle_green/1.1.11/lib/Xamarin.iOS10/SQLitePCLRaw.batteries_v2.dll
 -r=/Users/malikabaglan/.nuget/packages/sqlitepclraw.core/1.1.11/lib/Xamarin.iOS10/SQLitePCLRaw.core.dll
 -r=/Users/malikabaglan/.nuget/packages/sqlitepclraw.provider.sqlite3.ios_unified/1.1.11/lib/Xamarin.iOS10/SQLitePCLRaw.provider.sqlite3.dll
 -r=/Users/malikabaglan/.nuget/packages/validation/2.2.8/lib/dotnet/Validation.dll
+-r=/Users/malikabaglan/.nuget/packages/xam.plugin.media/4.0.1.5/lib/xamarinios10/Plugin.Media.dll
 -r=/Users/malikabaglan/.nuget/packages/xam.plugins.forms.imagecircle/3.0.0.5/lib/xamarinios10/ImageCircle.Forms.Plugin.dll
 -r=/Users/malikabaglan/.nuget/packages/xamarin.forms/3.3.0.967583/lib/Xamarin.iOS10/Xamarin.Forms.Core.dll
 -r=/Users/malikabaglan/.nuget/packages/xamarin.forms/3.3.0.967583/lib/Xamarin.iOS10/Xamarin.Forms.Platform.dll

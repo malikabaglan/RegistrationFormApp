@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms" 
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" 
+             x:Class="RegistrationForm.UserFileUploadPage">
+   
+<!--<ScrollView>
+       <StackLayout Padding="30,0,20,0" >
+        <Frame  Margin="0,50,0,0"   BackgroundColor="White" OutlineColor="Aqua">-->
+                
+                
+                 <TableView Intent="Form">
+        <TableRoot>
+            <TableSection Title="License Information" >
+         <EntryCell Label="License Number" ></EntryCell>
+                 <EntryCell Label="Verified by"></EntryCell>
+</TableSection>
+                
+                
+            <TableSection Title="Valid time">
+        <ViewCell >
+       <StackLayout  Orientation="Horizontal"  Padding="13,5">
+ <Label Text="From" VerticalOptions="Center"></Label>
+<DatePicker Date="1 Jan 2038" HorizontalOptions="EndAndExpand"> </DatePicker>
+ </StackLayout>   
+</ViewCell>
+                    
+              <ViewCell>
+               <StackLayout  Orientation="Horizontal"  Padding="13,5">     
+                      <Label Text="To" VerticalOptions="Center"></Label>
+                <DatePicker Date="1 Jan 2038" HorizontalOptions="EndAndExpand"> </DatePicker>
+                  </StackLayout> 
+                  </ViewCell>
+                  </TableSection>
+            
+            
+            
+                
+                <TableSection Title="Upload your license  copy">     
+    <ViewCell >
+    <StackLayout Orientation="Horizontal" Padding="10">
+        <Button Text="Take  photo" TextColor="Black"  Clicked="TakePhoto_Clicked"  ></Button>
+       <Image Source="takePhoto.png" HeightRequest="250"  WidthRequest="50"></Image>
+   </StackLayout>
+          </ViewCell> 
+                    
+             <ViewCell >
+    <StackLayout Orientation="Horizontal" Padding="10">
+  <Button Text="Upload  photo" TextColor="Black" Clicked="PickPhoto_Clicked"  ></Button>
+                        <Image Source="upload.png" HeightRequest="250" WidthRequest="50"></Image>
+   </StackLayout>
+          </ViewCell> 
+                    
+                    
+                    
+                     <ViewCell >
+                        <Grid>
+       <Grid.RowDefinitions>
+                                <RowDefinition Height="230"></RowDefinition>
+                            </Grid.RowDefinitions>                     
+                            
+                            
+         <Image    x:Name="image" BackgroundColor="White" Aspect="AspectFill" ></Image>  
+
+         </Grid>
+  
+          </ViewCell> 
+                    
+                    
+      </TableSection> 
+                
+                
+                
+                
+                
+                     
+           <!--TableSection Title="Image">
+        <ViewCell >
+     <Grid>
+       <Grid.RowDefinitions>
+                                <RowDefinition Height="600"></RowDefinition>
+                            </Grid.RowDefinitions>                     
+                            
+                            
+         <Image    x:Name="image" BackgroundColor="Red" Aspect="AspectFit" ></Image>  
+
+         </Grid>
+</ViewCell>
+                    
+                    
+                    
+           
+                  </TableSection>-->
+                
+        </TableRoot>
+    </TableView>
+       
+</ContentPage>
+
+
+                
+   <!--  <Grid RowSpacing="20" Margin="60">
+        <Grid.RowDefinitions >
+       <RowDefinition Height="20"></RowDefinition>
+        <RowDefinition Height="20"></RowDefinition>
+           <RowDefinition Height="60"></RowDefinition>
+            <RowDefinition Height="60"></RowDefinition>
+            <RowDefinition Height="120"></RowDefinition>
+        </Grid.RowDefinitions>
+       
+   <Entry   Grid.Row="0"  Text="License Name" BackgroundColor="White"></Entry>
+                    <Label ></Label>
+   <DatePicker  Grid.Row="1"  MaximumDate="1/11/1996"> </DatePicker>
+   
+<Button  Grid.Row="2" TextColor="Aqua" 
+             BackgroundColor="Black" Text="Take a Phote" 
+          Clicked="TakePhoto_Clicked"  ></Button>
+            
+       <Button Grid.Row="3" BackgroundColor="Blue"
+             TextColor="Aqua" Text="Upload a Phote" 
+           Clicked="PickPhoto_Clicked" ></Button>
+                    
+                    
+     <Image  Grid.Row="4"  x:Name="image" BackgroundColor="Gray" Aspect="AspectFill" ></Image>  
+    </Grid>-->
+               
+    <!--</Frame>
+        </StackLayout>            
+    </ScrollView>
+    
+</ContentPage>-->
