@@ -21,7 +21,12 @@ public partial class LoginPage : ContentPage
             }
             else
             {
-              Navigation.PushAsync(new AboutMePage(emailAddress.Text));
+                var object1 = new LoginModel();
+                object1.Name = emailAddress.Text;
+                object1.Password = UserLogin.Text;
+
+                
+              Navigation.PushAsync(new AboutMePage(object1));
      
 
 

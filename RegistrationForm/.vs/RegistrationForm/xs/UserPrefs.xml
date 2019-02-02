@@ -1,11 +1,12 @@
 ﻿<Properties StartupConfiguration="{B22A5BB2-F454-4E55-8567-24B4C584C60B}|Default">
-  <MonoDevelop.Ide.Workbench ActiveDocument="RegistrationForm/User_EducationDetailsPage.xaml">
+  <MonoDevelop.Ide.Workbench ActiveDocument="RegistrationForm/UserSSNPage.xaml">
     <Files>
-      <File FileName="RegistrationForm/UserFileUploadPage.xaml" Line="20" Column="28" />
-      <File FileName="RegistrationForm/UserFileUploadPage.xaml.cs" Line="76" Column="16" />
-      <File FileName="RegistrationForm/UserAddressDetailsPage.xaml" Line="6" Column="1" />
-      <File FileName="RegistrationForm/UserLicensesDetailPage.xaml" Line="20" Column="14" />
-      <File FileName="RegistrationForm/User_EducationDetailsPage.xaml" Line="48" Column="15" />
+      <File FileName="RegistrationForm/UserSSNPage.xaml" Line="66" Column="38" />
+      <File FileName="RegistrationForm/UserFileUploadPage.xaml" Line="48" Column="21" />
+      <File FileName="RegistrationForm/UserLicensesDetailPage.xaml" Line="25" Column="4" />
+      <File FileName="RegistrationForm/UserSSNPage.xaml.cs" Line="40" Column="13" />
+      <File FileName="RegistrationForm/User_EducationDetailsPage.xaml" Line="17" Column="17" />
+      <File FileName="RegistrationForm.iOS/Main.cs" Line="15" Column="34" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />

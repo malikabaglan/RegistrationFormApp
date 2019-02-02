@@ -35,3 +35,4 @@
 /Users/malikabaglan/Projects/RegistrationFormApp/RegistrationForm/RegistrationForm/obj/Debug/netstandard2.0/XamlC.stamp
 /Users/malikabaglan/Projects/RegistrationFormApp/RegistrationForm/RegistrationForm/obj/Debug/netstandard2.0/RegistrationForm.dll
 /Users/malikabaglan/Projects/RegistrationFormApp/RegistrationForm/RegistrationForm/obj/Debug/netstandard2.0/RegistrationForm.pdb
+/Users/malikabaglan/Projects/RegistrationFormApp/RegistrationForm/RegistrationForm/obj/Debug/netstandard2.0/RegistrationForm.csprojAssemblyReference.cache

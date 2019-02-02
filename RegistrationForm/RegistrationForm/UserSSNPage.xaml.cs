@@ -1,6 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
-
+using RegistrationForm.ViewModel;
 using Xamarin.Forms;
 
 namespace RegistrationForm
@@ -36,6 +36,12 @@ namespace RegistrationForm
         {
             InitializeComponent();
             IsPresented = true;
+           
+
+
+
+
+
         }
 
         void Handle_Clicked(object sender, System.EventArgs e)

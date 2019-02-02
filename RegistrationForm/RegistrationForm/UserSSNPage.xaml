@@ -2,11 +2,12 @@
 <MasterDetailPage xmlns="http://xamarin.com/schemas/2014/forms" 
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" 
              x:Class="RegistrationForm.UserSSNPage">
+  <!--  <MasterDetailPage.Master>
+        <UserSS
+    </MasterDetailPage.Master>-->
     
-    
-     <MasterDetailPage.Master>
-        
-        <ContentPage Padding="20"
+    <MasterDetailPage.Master>
+      <ContentPage Padding="20"
                      BackgroundColor="Aqua" Title="MyMaster"  Icon="hamburger.png"> 
  
             
@@ -24,15 +25,74 @@
                 </StackLayout>
             </ContentPage.Content>
         </ContentPage>
+        
     </MasterDetailPage.Master>
     
     
+    
+    
+    
+    
+    
+    
 <MasterDetailPage.Detail>
-     <ContentPage Padding="20"> 
+     <ContentPage Padding="10"> 
             <ContentPage.Content>
-                <StackLayout Margin="5,30,5,5">
-                    <Label Text="All data will be secured"></Label>
-                </StackLayout>
+                
+                <StackLayout Margin="5,20,5,5">
+                     <Image   Source="nabp.jpg"  BackgroundColor="White" WidthRequest="150" HeightRequest="100" Aspect="AspectFit" ></Image>  
+              <TableView Intent="Form">
+                        <TableRoot>
+                          <TableSection  Title="Terms of Agreement" >
+                            <TextCell  Detail="To create e-Profile you must accept terms of Agreement">
+                           </TextCell>
+                 
+                                
+                                
+                               <ViewCell >
+                            <Grid>
+       <Grid.RowDefinitions>
+                          <RowDefinition Height="250"></RowDefinition>
+                            </Grid.RowDefinitions>  
+                                        
+                                        
+                                        
+         <Image    x:Name="image" Source="terms.jpg"  BackgroundColor="White" Aspect="AspectFit" ></Image>  
+</Grid>
+  </ViewCell>  
+         </TableSection>  
+             </TableRoot>
+               </TableView>
+                    
+                    
+                    
+                 
+                    
+                    
+                    
+                    
+                 
+       <TableView    Intent="Form">
+        <TableRoot>
+            <TableSection Title="Compelete all questions" >
+                                
+  
+                                   <SwitchCell  Text="Do you have e-applications?" On="true" ></SwitchCell>
+                                 <SwitchCell  Text="Do you compound?" On="false" ></SwitchCell>
+                                 <SwitchCell  Text="Do you hava inspection" On="false" ></SwitchCell>
+                                  <SwitchCell  Text="Accept" On="false" ></SwitchCell>
+                                 <SwitchCell  Text="Create E-profile!" On="false"  ></SwitchCell>
+</TableSection>
+ </TableRoot>
+                </TableView>
+                    
+                    
+       
+                    
+                    
+                    
+                  
+        </StackLayout>
             </ContentPage.Content>
         </ContentPage>
     </MasterDetailPage.Detail>

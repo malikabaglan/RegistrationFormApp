@@ -3,7 +3,7 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="RegistrationForm.User_EducationDetailsPage">
     
-   <TableView Intent="Form">
+   <TableView  Intent="Form">
         <TableRoot>
             <TableSection Title="Education Information" >
      <TextCell Text="Education History" Detail="Please Enter all education details "></TextCell>
@@ -12,11 +12,9 @@
                  <EntryCell Label="Subject/Major"></EntryCell>
 
                 <SwitchCell  Text="Did you Graduate?" On="true" ></SwitchCell>
-
-                
-                
-  
-                </TableSection>
+</TableSection>
+            
+            
             <TableSection Title="Years of Attending">
         <ViewCell >
        <StackLayout  Orientation="Horizontal"  Padding="13,5">
@@ -36,7 +34,7 @@
             
             
                 
-                <TableSection Title="Additional Qualifications">     
+                <TableSection  Title="Additional Qualifications">     
     <ViewCell >
     <StackLayout Orientation="Horizontal" Padding="13,5">
         <Entry Placeholder="Training/Professional schools" PlaceholderColor="Black"  ></Entry>

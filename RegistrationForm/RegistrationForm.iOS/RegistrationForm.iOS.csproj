@@ -180,5 +180,6 @@
     <BundleResource Include="Resources\checked.png" />
     <BundleResource Include="Resources\upload.png" />
     <BundleResource Include="Resources\takephoto.png" />
+    <BundleResource Include="Resources\terms.jpg" />
   </ItemGroup>
 </Project>

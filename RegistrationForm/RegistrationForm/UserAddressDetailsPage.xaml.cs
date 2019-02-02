@@ -7,9 +7,13 @@ namespace RegistrationForm
 {
     public partial class UserAddressDetailsPage : ContentPage
     {
+       
+
+
         public UserAddressDetailsPage()
         {
             InitializeComponent();
+           
         }
     }
 }

@@ -16,6 +16,9 @@ namespace RegistrationForm
             else
             {
                 Navigation.PushAsync(new UserSSNPage());
+        
+               
+              
             }
 
 
@@ -24,11 +27,12 @@ namespace RegistrationForm
 
         }
 
-        public AboutMePage(string parameter)
+        public AboutMePage(LoginModel loginModel)
         {
             InitializeComponent();
-            mainLabel.Text = parameter;
-        
+            mainLabel.Text = loginModel.Name;
+            pswLbl.Text = loginModel.Password;
+
         }
 
 

@@ -10,7 +10,8 @@
                         VerticalOptions="Center" HorizontalOptions="Center">
             </Image>
             <Label  TextColor="Red" x:Name="mainLabel" ></Label>
-                   <Label  TextColor="Red" x:Name="MainLabel" ></Label>
+            
+                   <Label  TextColor="Red" x:Name="pswLbl" ></Label>
             
             <Label Margin="20" Text="Legal Name" HorizontalOptions="Center"
                    VerticalOptions="Center"></Label>

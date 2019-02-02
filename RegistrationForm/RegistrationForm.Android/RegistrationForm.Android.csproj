@@ -103,6 +103,7 @@
     <AndroidResource Include="Resources\drawable\checked.png" />
     <AndroidResource Include="Resources\drawable\upload.png" />
     <AndroidResource Include="Resources\drawable\takePhoto.png" />
+    <AndroidResource Include="Resources\drawable\terms.jpg" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Resources\drawable\" />
