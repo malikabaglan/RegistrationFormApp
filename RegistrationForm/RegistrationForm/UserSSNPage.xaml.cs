@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 using RegistrationForm.ViewModel;
+using Rg.Plugins.Popup.Services;
 using Xamarin.Forms;
 
 namespace RegistrationForm
@@ -36,7 +37,7 @@ namespace RegistrationForm
         {
             InitializeComponent();
             IsPresented = true;
-           
+
 
 
 
@@ -44,10 +45,32 @@ namespace RegistrationForm
 
         }
 
+        void Handle_Tapped(object sender, System.EventArgs e)
+        {
+            Navigation.PushAsync(new EntityPage());
+        }
+
+
+
+
         void Handle_Clicked(object sender, System.EventArgs e)
         {
 
+
             Navigation.PushAsync(new UserSSNumberPage());
+        }
+
+        void Next_Clicked(object sender, System.EventArgs e)
+        {
+
+      
+
+            PopupNavigation.Instance.PushAsync(new EntityPage());
+
+            Random generator = new Random();
+            String entity = generator.Next(0, 999999).ToString("D6");
+
+
         }
 
         void AddressDetails_Clicked(object sender, System.EventArgs e)

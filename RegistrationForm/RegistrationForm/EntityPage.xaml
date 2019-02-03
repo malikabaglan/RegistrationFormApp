@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<pages:PopupPage xmlns="http://xamarin.com/schemas/2014/forms" 
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+                 x:Class="RegistrationForm.EntityPage"
+                xmlns:pages="clr-namespace:Rg.Plugins.Popup.Pages;assembly=Rg.Plugins.Popup">
+  
+        <StackLayout Margin="15"
+                     Padding="24"
+                     Spacing="24"
+                     WidthRequest="500"
+                     HeightRequest="500"
+                     BackgroundColor="White"
+                     HorizontalOptions="Center"
+                     VerticalOptions="Center">
+        <StackLayout Padding="40">
+            <Label x:Name="con" Text="Congratulations" HorizontalTextAlignment="Center" FontSize="Large"></Label>
+           
+             <Label Margin="0,20"  Text="Your Individual Entity Number" HorizontalTextAlignment="Center" FontSize="Large"></Label>
+            
+            <Label  Margin="0,20" x:Name="idNumber" TextColor="Red" FontSize="Large" HorizontalTextAlignment="Center" ></Label>
+       
+         <Label Margin="0,80" Text="have questions?Contact our customer service" TextColor="Black" FontSize="Large" HorizontalTextAlignment="Center" ></Label>
+        <Button   Text="Get Help" BackgroundColor="Aqua" MinimumHeightRequest="35" HorizontalOptions="Center"></Button>
+        
+        </StackLayout> 
+        
+        
+         
+        
+      
+        </StackLayout>
+   
+        
+
+        
+</pages:PopupPage>

@@ -170,6 +170,8 @@
 -r=/Users/malikabaglan/.nuget/packages/pinvoke.ncrypt/0.3.2/lib/portable-net45+win+wpa81+MonoAndroid10+xamarinios10+MonoTouch10/PInvoke.NCrypt.dll
 -r=/Users/malikabaglan/.nuget/packages/pinvoke.windows.core/0.3.2/lib/portable-net45+win+wpa81+MonoAndroid10+xamarinios10+MonoTouch10/PInvoke.Windows.Core.dll
 -r=/Users/malikabaglan/.nuget/packages/plugin.permissions/3.0.0.12/lib/xamarinios10/Plugin.Permissions.dll
+-r=/Users/malikabaglan/.nuget/packages/rg.plugins.popup/1.1.5.188/lib/Xamarin.IOS/Rg.Plugins.Popup.IOS.dll
+-r=/Users/malikabaglan/.nuget/packages/rg.plugins.popup/1.1.5.188/lib/Xamarin.IOS/Rg.Plugins.Popup.dll
 -r=/Users/malikabaglan/.nuget/packages/sqlite-net-pcl/1.5.231/lib/netstandard1.1/SQLite-net.dll
 -r=/Users/malikabaglan/.nuget/packages/sqlitepclraw.bundle_green/1.1.11/lib/Xamarin.iOS10/SQLitePCLRaw.batteries_green.dll
 -r=/Users/malikabaglan/.nuget/packages/sqlitepclraw.bundle_green/1.1.11/lib/Xamarin.iOS10/SQLitePCLRaw.batteries_v2.dll

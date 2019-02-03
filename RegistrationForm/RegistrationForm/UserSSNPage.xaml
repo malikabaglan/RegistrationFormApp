@@ -41,6 +41,7 @@
                 
                 <StackLayout Margin="5,20,5,5">
                      <Image   Source="nabp.jpg"  BackgroundColor="White" WidthRequest="150" HeightRequest="100" Aspect="AspectFit" ></Image>  
+                    
               <TableView Intent="Form">
                         <TableRoot>
                           <TableSection  Title="Terms of Agreement" >
@@ -81,11 +82,14 @@
                                  <SwitchCell  Text="Do you compound?" On="false" ></SwitchCell>
                                  <SwitchCell  Text="Do you hava inspection" On="false" ></SwitchCell>
                                   <SwitchCell  Text="Accept" On="false" ></SwitchCell>
-                                 <SwitchCell  Text="Create E-profile!" On="false"  ></SwitchCell>
+                                 <SwitchCell Text="Create E-profile!" On="false"  ></SwitchCell>
+                           
 </TableSection>
  </TableRoot>
                 </TableView>
-                    
+                    <StackLayout>
+                        <Button Text="Next" Clicked="Next_Clicked" TextColor="Red"></Button>
+                    </StackLayout>
                     
        
                     

@@ -11,6 +11,8 @@ Plugin.CurrentActivity
 Plugin.Media
 Plugin.Permissions
 RegistrationForm
+Rg.Plugins.Popup
+Rg.Plugins.Popup.Droid
 SQLite-net
 SQLitePCLRaw.batteries_green
 SQLitePCLRaw.batteries_v2

@@ -16,12 +16,12 @@ namespace RegistrationForm
         void Handle_DateClicked(object sender, XamForms.Controls.DateTimeEventArgs e)
         {
 
-            MainLabel.Text = "Selected date " + e.DateTime.ToLongDateString();
+            MainLabel.Text = "Date of birth " + e.DateTime.ToLongDateString();
         }
 
         void Handle_DateSelected(object sender, Xamarin.Forms.DateChangedEventArgs e)
         {
-            MainLabel.Text = "Selected date " + e.NewDate.ToLongDateString();
+            MainLabel.Text = "Date of birth " + e.NewDate.ToLongDateString();
         }
     }
 }

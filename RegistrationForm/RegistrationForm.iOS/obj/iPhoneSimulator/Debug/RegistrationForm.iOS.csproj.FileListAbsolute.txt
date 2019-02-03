@@ -66,6 +66,10 @@
 /Users/malikabaglan/Projects/RegistrationFormApp/RegistrationForm/RegistrationForm.iOS/bin/iPhoneSimulator/Debug/PInvoke.NCrypt.dll
 /Users/malikabaglan/Projects/RegistrationFormApp/RegistrationForm/RegistrationForm.iOS/bin/iPhoneSimulator/Debug/PInvoke.Windows.Core.dll
 /Users/malikabaglan/Projects/RegistrationFormApp/RegistrationForm/RegistrationForm.iOS/bin/iPhoneSimulator/Debug/Plugin.Permissions.dll
+/Users/malikabaglan/Projects/RegistrationFormApp/RegistrationForm/RegistrationForm.iOS/bin/iPhoneSimulator/Debug/Rg.Plugins.Popup.IOS.dll
+/Users/malikabaglan/Projects/RegistrationFormApp/RegistrationForm/RegistrationForm.iOS/bin/iPhoneSimulator/Debug/Rg.Plugins.Popup.IOS.pdb
+/Users/malikabaglan/Projects/RegistrationFormApp/RegistrationForm/RegistrationForm.iOS/bin/iPhoneSimulator/Debug/Rg.Plugins.Popup.dll
+/Users/malikabaglan/Projects/RegistrationFormApp/RegistrationForm/RegistrationForm.iOS/bin/iPhoneSimulator/Debug/Rg.Plugins.Popup.pdb
 /Users/malikabaglan/Projects/RegistrationFormApp/RegistrationForm/RegistrationForm.iOS/bin/iPhoneSimulator/Debug/SQLite-net.dll
 /Users/malikabaglan/Projects/RegistrationFormApp/RegistrationForm/RegistrationForm.iOS/bin/iPhoneSimulator/Debug/SQLitePCLRaw.batteries_green.dll
 /Users/malikabaglan/Projects/RegistrationFormApp/RegistrationForm/RegistrationForm.iOS/bin/iPhoneSimulator/Debug/SQLitePCLRaw.batteries_v2.dll
